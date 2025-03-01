@@ -5,7 +5,8 @@
 <ul class="categories">
   {#each categories as category}
     <li>
-      <a data-sveltekit-prefetch rel="external" href={`/categories/${category}`}>{category}</a>
+      <!-- svelte-ignore a11y-missing-attribute -->
+      <a>{category}</a>
     </li>
   {/each}
 </ul>

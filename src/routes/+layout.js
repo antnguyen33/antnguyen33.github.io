@@ -3,6 +3,7 @@ export const load = async ({ fetch }) => {
   // e.g. fetch('posts.json?limit=5') for 5 most recent posts
   const res = await fetch("/api/posts.json");
   const posts = await res.json();
+  console.log(posts)
 
   return {
     posts,

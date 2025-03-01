@@ -24,7 +24,6 @@
 <article>
   <slot />
 </article>
-<p class="edit"><a href={edit} target="_blank">Edit this page</a></p>
 
 <style>
   .date {

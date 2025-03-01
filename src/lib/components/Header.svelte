@@ -12,12 +12,14 @@
 <style>
   .header-container {
     border-bottom: 1px solid var(--bg-light);
+    background-color: var(--headers-color);
   }
   header h1 {
     font-size: 2rem;
-    margin: 0.5rem 0;
+    margin: 0;
     font-weight: 600;
     text-align: center;
+    color: var(--text-light);
   }
 
   header a {
@@ -27,7 +29,7 @@
   @media screen and (max-width: 800px) {
     header h1 {
       text-align: center;
-      margin: 0.35rem 0;
+      margin: 0;
     }
   }
 </style>

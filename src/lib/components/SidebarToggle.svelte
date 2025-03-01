@@ -37,7 +37,7 @@
   .sidebar-toggle {
     position: absolute;
     display: inline-block;
-    margin: 1rem 2rem;
+    margin: 0.5rem 2rem;
   }
   label {
     display: flex;
@@ -47,7 +47,7 @@
   }
 
   label span {
-    background: var(--headers-color);
+    background: var(--text-light);
     border-radius: 5px;
     height: 3px;
     margin: 5px 0;
