@@ -6,10 +6,16 @@
   export let data;
   export let title, description, date, categories, edit, image;
 
+  const processImagePath = (imagePath) => {
+    return `/src/lib/images/${imagePath}`;
+  };
+
+  const processedImage = processImagePath(image);
+  
   const seo = {
     title: `${title} | ${siteTitle}`,
     description,
-    image,
+    image: processedImage,
   };
 
   $: recentPosts = data.posts;
@@ -20,37 +26,16 @@
 <h1>{title}</h1>
 <p class="date">{date}</p>
 <Categories {categories} />
-<img width="800" height="300" src={image} alt={title} />
+<img class="cropped-image" src={processedImage} alt={title} />
 <article>
   <slot />
 </article>
 
 <style>
-  .date {
-    font-size: 1rem;
-    color: var(--text-color);
-    opacity: 0.8;
-    margin-bottom: 0.5rem;
-  }
-  .edit {
-    display: flex;
-  }
-  .edit a {
-    margin-left: auto;
-  }
-  img {
-    object-fit: cover;
-    object-position: center;
-  }
-
-  @media screen and (max-width: 800px) {
-    h1 {
-      font-size: 2rem;
-    }
-    img {
-      height: 200px;
-      object-fit: contain;
-      object-position: center;
-    }
+  .cropped-image {
+  width: 800px; 
+  height: 300px; 
+  object-fit: cover; 
+  object-position: center;
   }
 </style>
