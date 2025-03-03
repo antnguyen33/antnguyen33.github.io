@@ -33,7 +33,7 @@
   }
   img {
     object-fit: cover;
-    object-position: center;
+    object-position: 50% 20%;;
   }
   @media screen and (max-width: 768px) {
     img {
