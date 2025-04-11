@@ -24,7 +24,7 @@ image: "2025_2_8_Eastern_Kyoto/TitleImage.JPG"
 </script> -->
 ### Places covered
 Due to heavy snow and maintenance, I didn't cover all parts from the <a href="https://www.japan-guide.com/e/e3950_eastern_kyoto_full.html" target="_blank">itinerary</a>.
-<dl>
+<!-- <dl>
   <dt>Ginkakuji</dt>
   <dd>Zen Temple</dd>
 
@@ -45,7 +45,7 @@ Due to heavy snow and maintenance, I didn't cover all parts from the <a href="ht
 
   <dt>Kiyomizudera</dt>
   <dd>Temple with an iconic wooden stage.</dd>
-</dl>
+</dl> -->
 
 <!-- ### Ginkakuji
 <img src={Ginkakuji_1}/>
