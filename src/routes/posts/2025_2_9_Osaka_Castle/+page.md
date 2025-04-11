@@ -10,7 +10,7 @@ date: "9th February 2025"
 edit: https://github.com/sharu725/yuyutsu/blob/master/src/routes/posts/example-content/%2Bpage.md
 image: "2025_2_9_Osaka_Castle/TitleImage.JPG"
 ---
-<script>
+<!-- <script>
   import one from '$lib/images/2025_2_9_Osaka_Castle/TitleImage.JPG';
   import two from '$lib/images/2025_2_9_Osaka_Castle/two.JPG';
   import three from '$lib/images/2025_2_9_Osaka_Castle/three.JPG';
@@ -20,10 +20,10 @@ image: "2025_2_9_Osaka_Castle/TitleImage.JPG"
   import seven from '$lib/images/2025_2_9_Osaka_Castle/seven.JPG';
   import eight from '$lib/images/2025_2_9_Osaka_Castle/eight.JPG';
   import nine from '$lib/images/2025_2_9_Osaka_Castle/nine.JPG';
-</script>
+</script> -->
 
 ### Osaka Castle
-<img src={one}/>
+<!-- <img src={one}/>
 <img src={two}/>
 <img src={three}/>
 <img src={four}/>
@@ -31,6 +31,6 @@ image: "2025_2_9_Osaka_Castle/TitleImage.JPG"
 <img src={six}/>
 <img src={seven}/>
 <img src={eight}/>
-<img src={nine}/>
+<img src={nine}/> -->
 
 ---

@@ -10,7 +10,7 @@ date: "8th February 2025"
 edit: https://github.com/sharu725/yuyutsu/blob/master/src/routes/posts/example-content/%2Bpage.md
 image: "2025_2_8_Eastern_Kyoto/TitleImage.JPG"
 ---
-<script>
+<!-- <script>
   import Ginkakuji_1 from '$lib/images/2025_2_8_Eastern_Kyoto/Ginkakuji_1.JPG';
   import Ginkakuji_2 from '$lib/images/2025_2_8_Eastern_Kyoto/Ginkakuji_2.JPG';
   import Ginkakuji_3 from '$lib/images/2025_2_8_Eastern_Kyoto/Ginkakuji_3.JPG';
@@ -21,7 +21,7 @@ image: "2025_2_8_Eastern_Kyoto/TitleImage.JPG"
   import HigashiyamaStreets from '$lib/images/2025_2_8_Eastern_Kyoto/HigashiyamaStreets.JPG';
   import Kiyomizudera_1 from '$lib/images/2025_2_8_Eastern_Kyoto/Kiyomizudera_1.JPG';
   import Kiyomizudera_2 from '$lib/images/2025_2_8_Eastern_Kyoto/Kiyomizudera_2.JPG';
-</script>
+</script> -->
 ### Places covered
 Due to heavy snow and maintenance, I didn't cover all parts from the <a href="https://www.japan-guide.com/e/e3950_eastern_kyoto_full.html" target="_blank">itinerary</a>.
 <dl>
@@ -47,7 +47,7 @@ Due to heavy snow and maintenance, I didn't cover all parts from the <a href="ht
   <dd>Temple with an iconic wooden stage.</dd>
 </dl>
 
-### Ginkakuji
+<!-- ### Ginkakuji
 <img src={Ginkakuji_1}/>
 <img src={Ginkakuji_2}/>
 <img src={Ginkakuji_3}/>
@@ -69,6 +69,6 @@ Due to heavy snow and maintenance, I didn't cover all parts from the <a href="ht
 
 ### Kiyomizudera
 <img src={Kiyomizudera_1}/>
-<img src={Kiyomizudera_2}/>
+<img src={Kiyomizudera_2}/> -->
 
 ---
